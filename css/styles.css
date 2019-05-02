@@ -12,13 +12,17 @@ body {
     text-align: center;
   }
 
+  .col{
+    float:left;
+    width:33.33%;
+  }
+
   #middle {
     width: 100%;
   }
 
   #mirror {
       border: 2px solid rgb(89, 109, 165);
-      width: 25%;
       display: block;
       margin: auto;
   }
