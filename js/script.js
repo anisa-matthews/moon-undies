@@ -11,4 +11,8 @@ $(document).ready(function(){
     });
 
     //click undies
+    $(".svg").click(function(){
+        $("#monitor").show();
+        setTimeout(function() { $("#monitor").hide(); }, 3000);
+    });
 });
