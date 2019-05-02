@@ -21,6 +21,10 @@ body {
       border: 2px solid pink;
   }
 
+  .svg{
+    background-size: 20px 30px;
+  }
+
   #footer {
     display: inline-block;
     width: 100%;
