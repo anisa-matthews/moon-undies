@@ -12,12 +12,11 @@ $(document).ready(function(){
 
     //click undies
     $(".svg").click(function(){
-        $("#monitor").show();
-        setTimeout(function() { $("#monitor").hide(); }, 3000);
+        $("#monitor").toggle();
     });
 
     //click pelvic scan
-    $("button").click(function(){
+    $("#pelvic").click(function(){
         $(".svg").attr("src", "images/pelvic-scan.gif");
         setTimeout(function() { $(".svg").attr("src", "images/smile.svg"); }, 3500);
     });
