@@ -24,7 +24,8 @@ body {
     display: block;
     margin-top: 470px;
     padding: 5px;
-    /* opacity: 0; */
+    background-color: rgba(156, 131, 185, 0.75);
+    border-radius: 10px;
   }
 
   #middle {
@@ -40,6 +41,7 @@ body {
     transition: width 0.3s ease-in-out;
     -webkit-transition:width 0.3s ease-in-out;
     background-color: rgba(156, 131, 185, 0.75);
+    border-radius: 10px;
     height: 100px;
     width: 75px;
     float: right;
