@@ -12,7 +12,8 @@ $(document).ready(function(){
 
     //click undies
     $(".svg").click(function(){
-        $("#monitor").toggle();
+        $("#monitor").show();
+        setTimeout(function() {$("#monitor").hide(); }, 5000);
     });
 
     //click pelvic scan

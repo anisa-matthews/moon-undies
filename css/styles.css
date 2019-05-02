@@ -21,7 +21,7 @@ body {
   #monitor{
     float: left;
     width:100px;
-    display: block;
+    display: none;
     margin-top: 50px;
     padding: 5px;
     background-color: rgba(156, 131, 185, 0.75);
