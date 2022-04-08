@@ -5,7 +5,7 @@ body {
 
   #mid{
   	height: 800px;
-  	background-image: url("../images/bedroom.jpg");
+  	background-image: url("images/bedroom.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
